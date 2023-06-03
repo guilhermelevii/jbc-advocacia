@@ -1,0 +1,149 @@
+@charset "utf-8";
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #0b0b0b54;
+  color: black;
+}
+
+header {
+  background-color: black;
+  color: white;
+  padding-top: 30px;
+  margin: 0px;
+}
+
+header > h1 {
+  padding-top: 300px;
+  padding-bottom: 40px;
+  text-align: center;
+  font-size: 40px;
+}
+
+header > nav {
+  padding-bottom: 20px;
+}
+
+nav > a {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+nav > a:hover {
+  background-color: rgba(255, 0, 0, 0.403);
+  transition-duration: 0.8s;
+}
+
+main {
+  background-color: white;
+  min-width: 300px;
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+article {
+  padding-top: 10px;
+  margin: auto;
+  text-align: center;
+}
+
+div.bloco {
+  height: 200px;
+  border: 1px solid black;
+  margin: 10px;
+  width: 300px;
+  border-radius: 10px;
+  padding: 50px;
+  text-align: center;
+  margin: auto;
+  display: inline-block;
+  margin-bottom: 20px;
+  margin-right: 60px;
+    
+}
+
+div.bloco > a{
+text-decoration: none;
+color: white;
+font-size: x-large;
+}
+
+div.bloco > a:hover {
+    background-color: rgba(255, 0, 0, 0.164);
+    padding: 10px;
+    border-radius: 7px;
+    transition-duration: 0.80s;
+}
+
+
+div#q1{
+    background-image: url(novopicture.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat:repeat;
+}
+
+div#q2{
+    background-image: url(novopicture.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat:repeat;
+}
+
+div#q3{
+    background-image: url(novopicture.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat:repeat;
+}
+div#q4{
+    background-image: url(novopicture.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat:repeat;
+}
+
+div#q5{
+    background-image: url(novopicture.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat:repeat;
+}
+
+
+aside {
+  background-color: rgba(211, 211, 211, 0.327);
+  min-width: 300px;
+  max-width: 1000px;
+  margin: auto;
+  padding: 100px;
+  padding-bottom: 600px;
+  
+}
+
+h2{
+    color: red;
+    padding-bottom: 100px;
+}
+footer {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 300px;
+  background-color: rgba(0, 0, 0, 0.277);
+  background-image: url(cartão\ fundo.jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+footer > h3 {
+  padding-top: 50px;
+}
+
+footer p {
+  padding-top: 30px;
+}
