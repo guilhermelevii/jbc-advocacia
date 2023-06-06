@@ -8,6 +8,7 @@ body {
   background-color: #0b0b0b54;
   color: black;
   min-height: 100vh;
+ 
 }
 
 header {
@@ -46,6 +47,7 @@ main {
   max-width: 1000px;
   margin: auto;
   padding: 20px;
+  min-height: 100vh;
 }
 article {
   padding-top: 10px;
@@ -122,8 +124,8 @@ aside {
   min-width: 300px;
   max-width: 1000px;
   margin: auto;
-  padding: 100px;
   padding-bottom: 600px;
+  min-height: 100vh;
   
 }
 
