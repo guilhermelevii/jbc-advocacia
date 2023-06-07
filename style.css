@@ -28,6 +28,7 @@ header {
   background-position: center bottom;
   background-repeat: no-repeat;
   background-attachment: scroll;
+  object-fit: contain;
   
 }
 
@@ -202,6 +203,8 @@ footer {
   background-position: left bottom;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  object-fit: contain;
+  
 }
 
 footer > h3 {
