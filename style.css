@@ -1,10 +1,10 @@
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 :root {
   --fonte-padrao: Arial, verdana, helvetica, sans-serif;
-  --fonte-destaque: 'Playfair', serif;
-  --fonte-textual:'Cormorant Garamond', serif;
+  --fonte-destaque: "Playfair", serif;
+  --fonte-textual: "Cormorant Garamond", serif;
 }
 * {
   margin: 0px;
@@ -23,11 +23,10 @@ header {
   color: white;
   padding-top: 30px;
   margin: 0px;
-  background-image: url('800800jbc.png');
+  background-image: url("800800jbc.png");
   background-position: center bottom;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  
   
 }
 
@@ -43,13 +42,12 @@ header > h1 {
 header > nav {
   padding-bottom: 20px;
   text-indent: 20px;
-  
-  
 }
 
 nav > a {
   color: white;
   padding: 10px;
+  margin-right: 6px;
   text-decoration: none;
   border-radius: 5px;
   font-family: var(--fonte-destaque);
@@ -57,8 +55,6 @@ nav > a {
   font-size: 23px;
   letter-spacing: 1px;
   background-color: rgba(255, 0, 0, 0.068);
-  
-
 }
 
 nav > a:hover {
@@ -96,7 +92,6 @@ main > span {
   font-family: var(--fonte-textual);
   font-weight: bold;
   font-size: 27px;
-
 }
 article {
   padding-top: 70px;
@@ -111,7 +106,7 @@ div.bloco {
   height: 200px;
   border: 1px solid black;
   margin: 10px;
-  border-radius:10px;
+  border-radius: 10px;
   padding: 60px;
   text-align: center;
   margin: auto;
@@ -124,7 +119,6 @@ div.bloco {
   font-family: var(--fonte-textual);
   font-weight: bold;
   font-style: italic;
-  
 }
 
 div.bloco > a {
@@ -132,8 +126,9 @@ div.bloco > a {
   color: white;
   font-size: x-large;
   background-color: rgba(255, 0, 0, 0.158);
-  text-shadow: 2px 2px  rgba(0, 0, 0, 0.178);
-  
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.178);
+  padding: 4px;
+  border-radius: 3px;
 }
 
 div.bloco > a:hover {
@@ -169,12 +164,10 @@ div#q4 {
 div#q5 {
   background-image: url(agrariofoto.jpg);
   background-position: center center;
- 
- 
 }
 
 aside {
-  background-color: rgba(211, 211, 211, 0.327);
+  background-color: rgba(211, 211, 211, 0.336);
   min-width: 300px;
   max-width: 1000px;
   margin: auto;
@@ -183,14 +176,17 @@ aside {
   padding-right: 70px;
   padding-left: 70px;
   font-family: var(--fonte-textual);
+  letter-spacing: 4px;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 aside > h2 {
   padding-top: 40px;
   font-family: var(--fonte-textual);
-  color:red;
+  color: red;
+  padding-bottom: 40px;
 }
-
 
 footer {
   text-align: center;
@@ -215,5 +211,10 @@ footer p {
   padding-top: 30px;
   font-family: var(--fonte-textual);
   font-size: 20px;
+}
+
+p > a{
+  color: red;
+  text-decoration: none;
   
 }
