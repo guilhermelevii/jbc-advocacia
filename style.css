@@ -153,23 +153,21 @@ div#q2 {
 }
 
 div#q3 {
-  background-image: url(novopicture.jpg);
+  background-image: url(previdenciario.jpeg);
   background-position: center center;
-  background-attachment: fixed;
   background-repeat: repeat;
 }
 div#q4 {
-  background-image: url(novopicture.jpg);
+  background-image: url(trabalhistaultimadeus.jpg);
   background-position: center center;
-  background-attachment: fixed;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
 }
 
 div#q5 {
-  background-image: url(novopicture.jpg);
+  background-image: url(agrariofoto.jpg);
   background-position: center center;
-  background-attachment: fixed;
-  background-repeat: repeat;
+ 
+ 
 }
 
 aside {
