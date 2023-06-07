@@ -111,7 +111,7 @@ div.bloco {
   height: 200px;
   border: 1px solid black;
   margin: 10px;
-  border-radius: 10px;
+  border-radius:10px;
   padding: 60px;
   text-align: center;
   margin: auto;
@@ -124,20 +124,23 @@ div.bloco {
   font-family: var(--fonte-textual);
   font-weight: bold;
   font-style: italic;
+  
 }
 
 div.bloco > a {
   text-decoration: none;
   color: white;
   font-size: x-large;
+  background-color: rgba(255, 0, 0, 0.158);
+  text-shadow: 2px 2px  rgba(0, 0, 0, 0.178);
   
 }
 
 div.bloco > a:hover {
-  background-color: rgba(255, 0, 0, 0.26);
-  padding: 10px;
+  background-color: rgba(255, 0, 0, 0.377);
+  padding: 5px;
   border-radius: 7px;
-  transition-duration: 0.8s;
+  transition-duration: 0.5s;
 }
 
 div#q1 {
