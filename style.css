@@ -35,7 +35,7 @@ header > h1 {
   padding-top: 300px;
   padding-bottom: 150px;
   text-align: center;
-  font-size: xx-large;
+  font-size: 23px;
   font-family: var(--fonte-destaque);
   font-weight: bold;
 }
@@ -43,6 +43,7 @@ header > h1 {
 header > nav {
   padding-bottom: 20px;
   text-indent: 20px;
+  
   
 }
 
@@ -56,6 +57,7 @@ nav > a {
   font-size: 23px;
   letter-spacing: 1px;
   background-color: rgba(255, 0, 0, 0.068);
+  
 
 }
 
@@ -139,16 +141,14 @@ div.bloco > a:hover {
 }
 
 div#q1 {
-  background-image: url(novopicture.jpg);
+  background-image: url(imobiliaarionovo.jpg);
   background-position: center center;
-  background-attachment: fixed;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
 }
 
 div#q2 {
-  background-image: url(novopicture.jpg);
+  background-image: url(contratosnovo.jpg);
   background-position: center center;
-  background-attachment: fixed;
   background-repeat: repeat;
 }
 
