@@ -16,6 +16,7 @@ body {
   color: black;
   min-height: 100vh;
   min-width: 400px;
+  
 }
 
 header {
@@ -75,6 +76,7 @@ main {
   margin-right: auto;
   color: white;
   text-align: center;
+  
 }
 
 main > P {
@@ -216,5 +218,5 @@ footer p {
 p > a{
   color: red;
   text-decoration: none;
-  
+
 }
