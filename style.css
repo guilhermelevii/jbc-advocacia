@@ -20,13 +20,13 @@ body {
 
 header {
   background-color: black;
+  min-height: 150px;
   color: white;
   padding-top: 20px;
   margin: 0px;
   background-image: url(JOAOBATISTA-066.png);
-  background-position: center center;
   background-repeat: no-repeat;
-  
+  background-position: center center;
 }
 
 header > h1 {
@@ -35,6 +35,7 @@ header > h1 {
   font-size: 23px;
   font-family: var(--fonte-destaque);
   font-weight: bold;
+  margin: auto;
 }
 
 header > nav {
@@ -42,7 +43,7 @@ header > nav {
   text-indent: 20px;
   margin: 1px 1px 1px 1px;
   text-align: right;
-  
+  margin: auto;
 }
 
 nav > a {
@@ -58,7 +59,6 @@ nav > a {
   background-color: rgba(255, 0, 0, 0.144);
   border-style: solid;
   border-width: thin;
-  
 }
 
 nav > a:hover {
@@ -75,8 +75,6 @@ main {
   min-height: 100vh;
   padding-right: 50px;
   padding-left: 50px;
-  margin-left: auto;
-  margin-right: auto;
   color: white;
   text-align: center;
 }
@@ -89,6 +87,7 @@ main > P {
   font-size: xx-large;
   padding-top: 80px;
   padding-bottom: 80px;
+  
 }
 
 main > span {
@@ -183,7 +182,6 @@ aside {
   letter-spacing: 4px;
   font-weight: bold;
   font-size: 20px;
-  
 }
 
 aside > h2 {
@@ -201,7 +199,6 @@ footer {
   color: white;
   font-family: var(--fonte-padrao);
   font-family: var(--fonte-textual);
-  
 }
 
 footer > h3 {
@@ -214,8 +211,6 @@ footer p {
   font-family: var(--fonte-textual);
   font-size: 20px;
 }
-
-
 
 p > a {
   color: red;
