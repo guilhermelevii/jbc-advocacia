@@ -27,6 +27,7 @@ header {
   background-image: url(JOAOBATISTA-066.png);
   background-repeat: no-repeat;
   background-position: center center;
+  
 }
 
 header > h1 {
@@ -41,7 +42,6 @@ header > h1 {
 header > nav {
   padding: 10px 10px 10px 10px;
   text-indent: 20px;
-  margin: 1px 1px 1px 1px;
   text-align: right;
   margin: auto;
 }
@@ -59,6 +59,7 @@ nav > a {
   background-color: rgba(255, 0, 0, 0.144);
   border-style: solid;
   border-width: thin;
+  margin: auto;
 }
 
 nav > a:hover {
