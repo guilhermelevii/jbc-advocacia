@@ -21,15 +21,16 @@ body {
 header {
   background-color: black;
   color: white;
-  padding-top: 30px;
+  padding-top: 20px;
   margin: 0px;
-  background-image: url(JOAOBATISTA.png);
+  background-image: url(JOAOBATISTA-066.png);
   background-position: center center;
   background-repeat: no-repeat;
+  
 }
 
 header > h1 {
-  padding-top: 450px;
+  padding-top: 700px;
   text-align: center;
   font-size: 23px;
   font-family: var(--fonte-destaque);
@@ -41,6 +42,7 @@ header > nav {
   text-indent: 20px;
   margin: 1px 1px 1px 1px;
   text-align: right;
+  
 }
 
 nav > a {
@@ -54,6 +56,9 @@ nav > a {
   font-size: 23px;
   letter-spacing: 1px;
   background-color: rgba(255, 0, 0, 0.144);
+  border-style: solid;
+  border-width: thin;
+  
 }
 
 nav > a:hover {
@@ -191,15 +196,12 @@ aside > h2 {
 footer {
   text-align: center;
   padding-top: 10px;
-  padding-bottom: 300px;
+  padding-bottom: 10px;
   background-color: black;
   color: white;
   font-family: var(--fonte-padrao);
   font-family: var(--fonte-textual);
-  background-image: url(600600jbc.png);
-  background-position: left bottom;
-  background-repeat: no-repeat;
-  object-fit: contain;
+  
 }
 
 footer > h3 {
@@ -212,6 +214,8 @@ footer p {
   font-family: var(--fonte-textual);
   font-size: 20px;
 }
+
+
 
 p > a {
   color: red;
