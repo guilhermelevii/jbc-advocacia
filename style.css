@@ -40,22 +40,23 @@ header > h1 {
 }
 
 header > nav {
-  padding: 10px 10px 10px 10px;
-  text-indent: 20px;
+  padding-right: 40px;
+  text-indent: 30px;
   text-align: right;
   margin: auto;
+  
 }
 
 nav > a {
   color: white;
   padding: 10px;
-  margin-right: 6px;
+  margin-right: 10px;
   text-decoration: none;
   border-radius: 5px;
   font-family: var(--fonte-destaque);
   font-weight: bold;
   font-size: 23px;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   background-color: rgba(255, 0, 0, 0.144);
   border-style: solid;
   border-width: thin;
